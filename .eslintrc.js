@@ -6,7 +6,8 @@ module.exports = {
     "extends": [
         "eslint:recommended",
         "plugin:react/recommended",
-        "plugin:flowtype/recommended"
+        "plugin:flowtype/recommended",
+        "plugin:prettier/recommended"
     ],
     "globals": {
         "Atomics": "readonly",
@@ -21,7 +22,8 @@ module.exports = {
     },
     "plugins": [
         "react",
-        "flowtype"
+        "flowtype",
+        "prettier"
     ],
     "rules": {
     },
