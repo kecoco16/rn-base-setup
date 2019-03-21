@@ -6,12 +6,10 @@
  * @flow
  */
 
-import React from 'react';
-import { StyleSheet, Text, View} from 'react-native';
+import React from 'react'
+import { StyleSheet, Text, View } from 'react-native'
 
-type Props = {};
-
-export default function App(props: Props) {
+export default function App() {
   return (
     <View style={styles.container}>
       <Text style={styles.welcome}>Welcome to React Native!</Text>
@@ -24,11 +22,11 @@ const styles = StyleSheet.create({
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
-    backgroundColor: '#F5FCFF',
+    backgroundColor: '#F5FCFF'
   },
   welcome: {
     fontSize: 20,
     textAlign: 'center',
-    margin: 10,
+    margin: 10
   }
-});
+})
