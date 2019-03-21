@@ -8,7 +8,9 @@
     "android": "react-native run-android",
     "test": "jest",
     "flow": "flow",
-    "flow-stop": "flow stop"
+    "flow-stop": "flow stop",
+    "prettier": "prettier --write \"*.{js,json,md}\"",
+    "prettier-check": "prettier --check \"*.{js,json,md}\""
   },
   "dependencies": {
     "react": "16.8.3",
@@ -21,6 +23,7 @@
     "flow-bin": "^0.95.1",
     "jest": "^24.5.0",
     "metro-react-native-babel-preset": "^0.53.1",
+    "prettier": "^1.16.4",
     "react-test-renderer": "16.8.3"
   },
   "jest": {
