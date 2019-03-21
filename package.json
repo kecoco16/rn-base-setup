@@ -10,7 +10,8 @@
     "flow": "flow",
     "flow-stop": "flow stop",
     "prettier": "prettier --write \"*.{js,json,md}\"",
-    "prettier-check": "prettier --check \"*.{js,json,md}\""
+    "prettier-check": "prettier --check \"*.{js,json,md}\"",
+    "lint": "eslint *.js"
   },
   "dependencies": {
     "react": "16.8.3",
@@ -19,7 +20,11 @@
   "devDependencies": {
     "@babel/core": "^7.4.0",
     "@babel/runtime": "^7.4.2",
+    "babel-eslint": "^10.0.1",
     "babel-jest": "^24.5.0",
+    "eslint": "^5.15.3",
+    "eslint-plugin-flowtype": "^3.4.2",
+    "eslint-plugin-react": "^7.12.4",
     "flow-bin": "^0.95.1",
     "jest": "^24.5.0",
     "metro-react-native-babel-preset": "^0.53.1",
