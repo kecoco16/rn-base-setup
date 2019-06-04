@@ -11,7 +11,7 @@
     "flow-stop": "flow stop",
     "prettier": "prettier --write \"*.{js,json,md}\"",
     "prettier-check": "prettier --check \"*.{js,json,md}\"",
-    "lint": "eslint *.js"
+    "lint": "eslint . --ext .js"
   },
   "dependencies": {
     "eslint-config-prettier": "^4.1.0",
